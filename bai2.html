@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<h1>Temperature Converter</h1>
+<p>Type a value in the Fahrenheit field to convert the value to Celsius:</p>
+<p>
+    <label for="inputFahrenheit">Fahrenheit</label>
+    <input id="inputFahrenheit" type="number" placeholder="Choose Fahrenheit..."
+           oninput="temperatureConverter(this.value)"
+            onchange="temperatureConverter(this.value)">
+</p>
+<p>Celsius: <span id="outputCelsius"></span></p>
+
+<script src="bai2.js"></script>
+</body>
+</html>
